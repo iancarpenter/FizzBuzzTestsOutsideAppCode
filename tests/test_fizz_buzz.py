@@ -1,8 +1,14 @@
 import pytest
 
+import sys
+sys.path.insert(0, './src/')
 from fizz_buzz import fizz_buzz_if_calc, fizz_buzz_using_boolean
 
+import pprint, sys
 
+# def test_cool():
+#     pprint.pprint(sys.path)
+#     assert False
 
 @pytest.fixture
 def expected_number_of_elements():
